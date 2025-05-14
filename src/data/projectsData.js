@@ -13,10 +13,11 @@ const projectsData = [
       "https://portfolio-images-29.netlify.app/169/after/notes6.png"
 
     ],
-    techStack: ["Python", "Flask", "AWS", "TypeScript", "React.js", "JavaScript", "Supabase"],
     github: "https://github.com/sanjayattelli29/Notes-Galaxy",
     website: "https://dought-flow-2.vercel.app/",
-    about: "Comprehensive productivity app with secure cloud storage, AI-powered suggestions, and intuitive drag-and-drop functionality."
+    about: "Login details to interact with project — Username: user1@gmail.com, Password: 01@user",
+    techStack: ["Python", "Flask", "AWS", "TypeScript", "React.js", "JavaScript", "Supabase"]
+
   },
   {
     id: 'ecommerce',
@@ -46,7 +47,7 @@ const projectsData = [
     techStack: ["React.js", "Node.js", "Tailwind CSS", "Figma", "Framer Motion"],
     github: "https://github.com/sanjayattelli29/Fin-Track-2.0",
     website: "http://fin-track-20.netlify.app/",
-    about: "Take control of your financial journey with confidence, tracking income, expenses, and budget planning in a seamless, user-friendly interface."
+    about: "Login details to interact with project — Username: editwithsanjay, Password: 29@Sanjay",
   },
   
   {
