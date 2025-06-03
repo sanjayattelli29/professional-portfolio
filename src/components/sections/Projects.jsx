@@ -142,42 +142,7 @@ const Projects = () => {
           EXPLORE ALL MY PROJECTS
         </ExploreButton>
 
-        <ToggleButtonGroup>
-          <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
-          >
-            ALL
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
-          >
-            WEB DESIGN'S
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
-          >
-            APP DESIGN'S
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
-          >
-            ANIMATIONS
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "caseStudy"}
-            onClick={() => setToggle("caseStudy")}
-          >
-            CASE STUDIES
-          </ToggleButton>
-        </ToggleButtonGroup>
+
 
         <CardContainer>
           {toggle === "all" &&

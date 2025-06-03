@@ -1,4 +1,21 @@
 const projectsData = [
+    {
+    id: 'Datavizai',
+    name: "Dataviz-AI",
+    category: ["web app", "saas"],
+    tagline: "Smart Data Analyser powered by AI Agents & Deep Learning",
+    images: [
+      "https://portfolio-images-29.netlify.app/169/after/dataviz1.png",
+      "https://portfolio-images-29.netlify.app/169/after/dataviz2.png",
+      "https://portfolio-images-29.netlify.app/169/after/dataviz3.png",
+      "https://portfolio-images-29.netlify.app/169/after/dataviz4.png"
+        ],
+    github: "https://github.com/sanjayattelli29",
+    website: "https://dataviz-ai.netlify.app/",
+    about: "Still in development—design updates coming. Feel free to email feedback!",
+    techStack: ["Python", "MongoDB", "AWS-Lambda", "S3", "Next.JS", "Deep Learning", "AI Agents"],
+
+  },
   {
     id: 'notes-galaxy',
     name: "NotesGalaxy",
@@ -279,7 +296,7 @@ const projectsData = [
   {
     id: 'nike-app',
     name: "Nike App UI Design",
-    category: "android app",
+    category:  "ui-ux",
     tagline: "The app welcomes users with a smooth and engaging onboarding process, app right from the start.",
     images: [
       "https://mir-s3-cdn-cf.behance.net/project_modules/fs/34b64e207128873.66d8459957379.png"
@@ -292,7 +309,7 @@ const projectsData = [
   {
     id: 'snackfleet',
     name: "SNACKFLEET",
-    category: "android app",
+    category:  "ui-ux",
     tagline: "A 10-minute food delivery app sounds convenient, efficient, and incredibly fast.",
     images: [
       "https://s3-alpha.figma.com/hub/file/6158549733/ca02506c-acc3-4709-b0cd-5ad50c1fd20d-cover.png"
@@ -305,7 +322,7 @@ const projectsData = [
   {
     id: 'spatial-flow',
     name: "Spatial Flow UI",
-    category: "android app",
+    category:  "ui-ux",
     tagline: "Experience smooth and visually stunning transitions between UI elements, enhancing the overall user journey.",
     images: [
       "https://s3-alpha.figma.com/hub/file/6566363107/3a98bf09-5f80-465d-a9b5-7141d72f3621-cover.png"
@@ -357,7 +374,7 @@ const projectsData = [
   {
     id: 'travel-case',
     name: "Travel App UX Case Study",
-    category: ["case-study", "app-design"],
+    category: ["case-study",  "ui-ux"],
     tagline: "Discover how we designed an intuitive and engaging experience for globetrotters.",
     images: [
       "https://s3-alpha.figma.com/hub/file/6568072089/51c1d877-fd0b-40b0-ba81-123cb393af39-cover.png"
